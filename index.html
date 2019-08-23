@@ -4,156 +4,133 @@
     <meta charset="UTF-8">
     <title>Las Maracas</title>
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="css/mise-en-forme.css">
+<!--    <link rel="stylesheet" href="css/mise-en-forme.css">-->
     <link rel="stylesheet" href="css/typo.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-
-<header>
-
-    <div class="col_g"><img src="ico/lasmaracas.png" alt="logo">
-    <h2>Vendredi 27 et samedi 28 septembre</h2></div>
-
-    <div class="col_d"><img class="ico" src="ico/leboules.png" alt="ville">
-        <div class="billetouvert"><h3>Billetterie ouverte</h3></div>
-    <a class="bouton" href="#" title="bouton">Réserver maintenant</a></div>
-
-
-    <nav>
-        <ul id="nav">
-            <li><a href="">Programmation</a></li>
-            <li><a href="">Billetterie</a></li>
-            <li><a href="">Galerie</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
-    </nav>
-
-
-</header>
-
-<main>
-
-
-<div class="programmation">
-
-    <h2>Programmation</h2>
-
-    <div id="video">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/FovZ7AefAmo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="container">
+    <div id="header" class="row">
+        <div class="row">
+            <div class="col-6">
+                <img src="ico/lasmaracas.png" alt="logo">
+            </div>
+            <div class="col-6">
+                <img class="ico" src="ico/leboules.png" alt="ville">
+                <div class="billetouvert">
+                    <h3>Billetterie ouverte</h3>
+                </div>
+                <a class="bouton" href="#" title="bouton">Réserver maintenant</a>
+            </div>
+        </div>
+        <div class="row">
+            <h2>Vendredi 27 et samedi 28 septembre</h2>
+        </div>
     </div>
 
-    <div id="txt_patrice">
-    <h3>Patrice Michaud</h3>
-
-    <p>Patrice Michaud clôturera le Festival Las Maracas le samedi 27 septembre 2019 à 21H. Avec son dernier tube “La saison des pluies”, Patrice Michaud a connu un vif succès une fois de plus cette année. Son charisme et son talent d'interprète font de lui l'un des plus populaires chanteurs du Québec !</p>
+    <div class="row">
+        <nav>
+            <ul id="nav">
+                <li><a href="">Programmation</a></li>
+                <li><a href="">Billetterie</a></li>
+                <li><a href="">Galerie</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
     </div>
 
-    <div id="img_patrice">
-    <img src="img/pm1.png" alt="pm">
+    <div class="row">
+        <div class="programmation">
+            <h2>Programmation</h2>
+            <div id="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/FovZ7AefAmo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div id="txt_patrice">
+                <h3>Patrice Michaud</h3>
+                <p>Patrice Michaud clôturera le Festival Las Maracas le samedi 27 septembre 2019 à 21H. Avec son dernier tube “La saison des pluies”, Patrice Michaud a connu un vif succès une fois de plus cette année. Son charisme et son talent d'interprète font de lui l'un des plus populaires chanteurs du Québec !</p>
+            </div>
+            <div id="img_patrice">
+                <img src="img/pm1.png" alt="pm">
+            </div>
+            <div class="vendredi">
+                <h3>Vendredi 27</h3>
+                <img src="img/retg.jpg" alt="retg">
+                <ul>
+                    <li><div class="horaire">19H</div> École de danses latines Dos Con Dos (Québec)</li>
+                    <li><div class="horaire">20H</div> Marc Anthony (New York)</li>
+                    <li><div class="horaire">21H</div> Rodrigo y Gabriela (Mexico)</li>
+                </ul>
+            </div>
+            <div class="samedi">
+                <h3>Samedi 28</h3>
+                <img src="img/pm2.jpg" alt="pm">
+                <ul>
+                    <li><div class="horaire">19H</div> Studio 2720 (Montréal)</li>
+                    <li><div class="horaire">20H</div> Andy Montáñez (Mexico)</li>
+                    <li><div class="horaire">21H</div> Patrice Michaud (Québec)</li>
+                </ul>
+            </div>
+        </div>
     </div>
 
-    <div class="vendredi">
-    <h3>Vendredi 27</h3>
+<!--    <div class="row">-->
+<!--        <div class="billetterie">-->
+<!--            <h2>Billetterie</h2>-->
+
+<!--            <div class="pass">-->
+<!--                <div class="passjour">-->
+<!--                    <h3>Pass 1 jour</h3>-->
+<!--                    <p>29,99$</p>-->
+<!--                    <a class="bouton" href="#" title="bouton">Réserver maintenant</a></div>-->
 
 
-    <img src="img/retg.jpg" alt="retg">
+<!--                <div class="passweekend">-->
+<!--                    <h3>Pass weekend</h3>-->
+<!--                    <p>49,99$</p>-->
+<!--                    <a class="bouton" href="#" title="bouton">Réserver maintenant</a></div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
 
-        <ul>
-        <li><div class="horaire">19H</div> École de danses latines Dos Con Dos (Québec)</li>
-        <li><div class="horaire">20H</div> Marc Anthony (New York)</li>
-        <li><div class="horaire">21H</div> Rodrigo y Gabriela (Mexico)</li>
-        </ul>
+<!--    <div class="row">-->
+<!--        <div class="part-galerie">-->
+<!--        <h2>Galerie</h2>-->
+<!--        <div class="galerie">-->
+<!--            <img src="img/gal1.jpg" alt="galerie">-->
+<!--            <img src="img/galerie2.jpg" alt="galerie">-->
+<!--            <img src="img/fest2.jpg" alt="galerie">-->
+<!--            <img src="img/fest_galerie.jpg" alt="galerie">-->
+<!--        </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    -->
+<!--    <div class="row">-->
+<!--        <div class="col_g">-->
 
-    </div>
+<!--            <div class="logo_footer"><img src="ico/lasmaracas.png" alt="logo"></div>-->
 
-    <div class="samedi">
-    <h3>Samedi 28</h3>
+<!--            <h3>Rejoignez-nous</h3>-->
 
-    <img src="img/pm2.jpg" alt="pm">
+<!--            <div class="rs">-->
+<!--                <img src="ico/rs/facebook.png" alt="rs">-->
+<!--                <img src="ico/rs/instagram.png" alt="rs">-->
+<!--                <img src="ico/rs/twitt.png" alt="rs"></div>-->
 
-    <ul>
-        <li><div class="horaire">19H</div> Studio 2720 (Montréal)</li>
-        <li><div class="horaire">20H</div> Andy Montáñez (Mexico)</li>
-        <li><div class="horaire">21H</div> Patrice Michaud (Québec)</li>
-    </ul>
-    </div>
+<!--            <a class="bouton" href="#" title="bouton">S'abonner à la newsletter</a>-->
+<!--        </div>-->
+
+<!--        <div class="col_d">-->
+<!--            <p>165 Rue Principale, Les Boules</p>-->
+<!--            <p> Métis-sur-Mer, QC G0J 1S0</p>-->
+<!--            <p> (514) 996-4565</p>-->
+<!--            <p> lasmaracas@contact.com</p>-->
+
+<!--            <img src="img/map.PNG" alt="map">-->
+<!--        </div>-->
+<!--    </div>-->
 
 </div>
 
-<div class="billetterie">
-    <h2>Billetterie</h2>
-
-    <div class="pass">
-  <div class="passjour">
-   <h3>Pass 1 jour</h3>
-    <p>29,99$</p>
-      <a class="bouton" href="#" title="bouton">Réserver maintenant</a></div>
-
-
-    <div class="passweekend">
-    <h3>Pass weekend</h3>
-    <p>49,99$</p>
-        <a class="bouton" href="#" title="bouton">Réserver maintenant</a></div>
-    </div>
-    </div>
-
-    <div class="part-galerie">
-    <h2>Galerie</h2>
-
-    <div class="galerie">
-    <img src="img/gal1.jpg" alt="galerie">
-    <img src="img/galerie2.jpg" alt="galerie">
-        <img src="img/fest2.jpg" alt="galerie">
-        <img src="img/fest_galerie.jpg" alt="galerie">
-    </div>
-<div class="partenaires">
-    <img src="ico/partenaires/Agropur_logo-2018.png" alt="partenaires">
-    <img src="ico/partenaires/Assemblée.png" alt="partenaires">
-    <img src="ico/partenaires/bud.png" alt="partenaires">
-    <img src="ico/partenaires/exp.png" alt="partenaires">
-    <img src="ico/partenaires/familiprix.png" alt="partenaires">
-    <img src="ico/partenaires/hyundai.png" alt="partenaires">
-    <img src="ico/partenaires/lettrages-lafontaine.png" alt="partenaires">
-    <img src="ico/partenaires/logo-Boralex2.png" alt="partenaires">
-    <img src="ico/partenaires/Logo-Desjardins.png" alt="partenaires">
-    <img src="ico/partenaires/musication-logo.png" alt="partenaires">
-    <img src="ico/partenaires/numeriq.png" alt="partenaires">
-    <img src="ico/partenaires/Rouge_FM_2011_logo.png" alt="partenaires">
-    <img src="ico/partenaires/sub.png" alt="partenaires">
-    <img src="ico/partenaires/snc.png" alt="partenaires">
-    <img src="ico/partenaires/tourisme.png" alt="partenaires">
-    <img src="ico/partenaires/sleeman.png" alt="partenaires">
-    </div>
-    </div>
-</main>
-
-<footer>
-
-    <div class="col_g">
-
-    <div class="logo_footer"><img src="ico/lasmaracas.png" alt="logo"></div>
-
-    <h3>Rejoignez-nous</h3>
-
-   <div class="rs">
-    <img src="ico/rs/facebook.png" alt="rs">
-    <img src="ico/rs/instagram.png" alt="rs">
-    <img src="ico/rs/twitt.png" alt="rs"></div>
-
-    <a class="bouton" href="#" title="bouton">S'abonner à la newsletter</a>
-    </div>
-
-    <div class="col_d">
-    <p>165 Rue Principale, Les Boules</p>
-    <p> Métis-sur-Mer, QC G0J 1S0</p>
-    <p> (514) 996-4565</p>
-    <p> lasmaracas@contact.com</p>
-
-    <img src="img/map.PNG" alt="map">
-    </div>
-
-</footer>
-
 </body>
-
 </html>
