@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #090909;
+    background: url(../img/fest1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+main{
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+img{
+    max-width: 100%;
+}
+
+/*header*/
+
+.col_g{
+    display: table-cell;
+    padding-left: 140px;
+}
+.col_d{
+    display: table-cell;
+    padding-right: 140px;
+}
+
+.col_d img.ico{
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*bouton*/
+
+.bouton {
+    border-radius: 0.5em 0.5em 0.5em 0.5em;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin-top: 12px;
+    padding: 7px 9px;
+    text-decoration: none;
+    color: white;
+    background-color: #CBB133;
+    font-size: 1.9vw;
+}
+.bouton:hover {
+    background-color: black;
+    color: #CBB133;
+}
+
+.col_d a.bouton{
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+    display: block;
+}
+
+/*menu*/
+
+#nav {
+    padding: 0; margin: 0;
+    text-align: center;
+    background-color: rgba(203,177,51,80);
+}
+#nav li {
+    display: inline-block;
+    list-style: none;
+}
+#nav a {
+    display:inline-block;
+    margin: 0 90px;
+    float:left;
+    width:100px;
+    line-height:50px; /*hauteur de l'image de fond*/
+    color:black;
+    text-decoration:none;
+    text-align:center;
+    font-size: 1.3vw;
+}
+
+#nav a:hover {
+    text-decoration: underline;
+}
+
+/*programmation*/
+
+.programmation{
+    background-color: #090909;
+    margin-right: -140px;
+    margin-left: -140px;
+}
+
+.programmation p,li{
+    color: white;
+    list-style: none
+
+}
+
+.programmation h2,h3{
+    color: #E9C639;
+}
+
+.programmation ul li .horaire{
+    color: #E9C639;
+    font-weight: bold;
+}
+/*programmation part 1*/
+
+#img_patrice,#txt_patrice,#video{
+    display: inline-block;
+    margin: 10px;
+    width: 30%;
+}
+/*programmation part 2*/
+
+.vendredi,.samedi{
+    display: inline-block;
+    margin: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+/*billetterie*/
+
+.pass{
+    display: block;
+    text-align: center;
+}
+
+.passjour,.passweekend{
+    display: inline-block;
+    margin: 10px;
+    width: 30%;
+    text-align: center;
+}
+
+.billetterie{
+    background-image: url(../img/fond_billet.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: -140px;
+    margin-left: -140px;
+    padding-bottom: 25px;
+}
+
+.billetterie h2{
+    margin-left: 140px;
+}
+
+
+/*galerie*/
+
+.galerie img{
+    margin: 0.4vw;
+    width: 45%;
+}
+
+.partenaires img{
+    width: 200px;
+    height: auto;
+    margin-right: 0.4vw;
+    margin-left: 0.4vw;
+}
+
+.part-galerie{
+    background-color: #090909;
+    margin-left: -140px;
+    margin-right: -140px;
+}
+
+/*footer*/
+
+footer .col_g .rs img{
+    width: 4.4vw;
+    height: auto;
+}
+
+footer{
+    background-color: #8F7700;
+}
+
+footer .col_d img{
+    width: 600px;
+}
+
+footer .col_g .logo_footer img{
+    max-width: 60%;
+    height: auto;
+    display: block;
+}
